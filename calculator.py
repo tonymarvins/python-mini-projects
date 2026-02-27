@@ -13,4 +13,7 @@ def add(a, b):
     return a + b
     # Testing addition
     print("2 + 3 =", add(2, 3))
+
+def subtract(a, b):
+    return a - b
 menu()
