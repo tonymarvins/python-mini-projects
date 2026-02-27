@@ -1,7 +1,7 @@
 from operations import add, subtract, multiply, divide
-from utils import get_number
+from utils import get_number, log
 from config import APP_NAME
-from utils import log
+
 def menu():
     print(f"\n{APP_NAME}")
     print("1 add")
@@ -9,14 +9,16 @@ def menu():
     print("3 multiply")
     print("4 divide")
     print("5 exit")
+
 def run():
     log("calculator started")
     while True:
         menu()
         choice = input("select option: ")
 
-        if choice =="5";
-          break
+        if choice == "5":
+            break
+
         a = get_number("first number: ")
         b = get_number("second number: ")
 
@@ -29,7 +31,7 @@ def run():
                 print(multiply(a, b))
             elif choice == "4":
                 print(divide(a,b))
-        except Execution as e:
+        except Exception as e:
             print(e)
 
 
