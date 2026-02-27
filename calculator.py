@@ -9,7 +9,7 @@ def menu():
      print("3. Multiply ✖️")
      print("4. Divide ➗")
      print("5. Exit")
-menu()
+
   #test the  functions with real numbers
 def add(a, b):
     return a + b
@@ -25,3 +25,4 @@ def divide(a, b):
         return "Cannot divide by zero!"
     return a / b
 
+menu()
