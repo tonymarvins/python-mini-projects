@@ -1,7 +1,7 @@
 from operations import add, subtract, multiply, divide
 from utils import get_number
 from config import APP_NAME
-
+from utils import log
 def menu():
     print(f"\n{APP_NAME}")
     print("1 add")
@@ -10,6 +10,7 @@ def menu():
     print("4 divide")
     print("5 exit")
 def run():
+    log("calculator started")
     while True:
         menu()
         choice = input("select option: ")
