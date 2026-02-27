@@ -9,3 +9,12 @@ def menu():
     print("3 multiply")
     print("4 divide")
     print("5 exit")
+def run():
+    while True:
+        menu()
+        choice = input("select option: ")
+
+        if choice =="5";
+          break
+        a = get_number("first number: ")
+        b = get_number("second number: ")
