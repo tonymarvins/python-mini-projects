@@ -26,4 +26,6 @@ def multiply(a, b):
 
 def divide(a, b):
     return a / b
+    # Testing division
+    print("10 / 2 =", divide(10, 2))
 menu()
