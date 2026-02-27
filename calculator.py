@@ -18,4 +18,7 @@ def subtract(a, b):
     return a - b
     # Testing subtraction
     print("5 - 2 =", subtract(5, 2))
+
+def multiply(a, b):
+    return a * b
 menu()
