@@ -21,4 +21,6 @@ def subtract(a, b):
 
 def multiply(a, b):
     return a * b
+    # Testing multiplication
+    print("4 * 3 =", multiply(4, 3))
 menu()
