@@ -18,3 +18,19 @@ def run():
           break
         a = get_number("first number: ")
         b = get_number("second number: ")
+
+        try:
+            if choice == "1":
+                print(add(a, b))
+            elif choice == "2":
+                print(subtract(a, b))
+            elif choice == "3":
+                print(multiply(a, b))
+            elif choice == "4":
+                print(divide(a,b))
+        except Execution as e:
+            print(e)
+
+
+if __name__ == "__main__":
+    run()
