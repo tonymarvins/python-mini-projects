@@ -28,4 +28,9 @@ def divide(a, b):
     return a / b
     # Testing division
     print("10 / 2 =", divide(10, 2))
+
+def divide(a, b):
+    if b == 0:
+        return "Cannot divide by zero!"
+    return a / b
 menu()
