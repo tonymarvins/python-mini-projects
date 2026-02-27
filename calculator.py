@@ -1,4 +1,4 @@
-# Luis's Calculator 🧮
+# Luis's Calculator final tweaks 
 # First amateur draft
 
 def menu():
@@ -9,7 +9,7 @@ def menu():
     print("3. Multiply ✖️")
     print("4. Divide ➗")
     print("5. Exit")
-
+  #test the  functions with real numbers
 menu()
 def add(a, b):
     return a + b
