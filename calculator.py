@@ -23,4 +23,7 @@ def multiply(a, b):
     return a * b
     # Testing multiplication
     print("4 * 3 =", multiply(4, 3))
+
+def divide(a, b):
+    return a / b
 menu()
